@@ -1,0 +1,9 @@
+name: vector
+description: Linear algebra library, including multi-dimensional vector and 4D color classes
+authors:
+  - Freddie Ridell <freddie@codogo.io>
+  - Chance Snow <git@chancesnow.me>
+license: MIT
+entry: vector.wren
+tests: [example.wren, src/**/*.spec.wren]
+devDependencies: [wren-assert]
